@@ -3,7 +3,7 @@
 }
 
 .ui.large.animated.button {
-  width: 900px;
+  width: 100%;
 }
 
 .visible.content {
@@ -17,7 +17,7 @@
 }
 
 .Contact {
-  width: 1150px;
+  width: 100%;
   color: azure;
 }
 

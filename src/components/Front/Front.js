@@ -48,8 +48,6 @@ const Front = () => {
           <div className="Barbicon">
             <img src={BarbarianInfoImage} alt="Barbarian Info" />
           </div>
-
-          {/* <img className="TextLogo" src={TextLogo} alt="" /> */}
         </div>
         <div className="HeroText">
           <div className="hackathonlogo">

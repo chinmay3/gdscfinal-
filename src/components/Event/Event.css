@@ -10,15 +10,6 @@
   grid-gap: 50px; /* Adjust the gap between cards */
 }
 
-@media (max-width: 768px) {
-  #cardRow {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* On smaller screens, display 2 columns */
-  }
-}
-
 .card-hover__content {
   width: 100%;
   text-align: center;
@@ -155,4 +146,24 @@
   z-index: -1;
   transform: scale(1.2);
   transition: 0.35s 0.35s transform cubic-bezier(0.1, 0.72, 0.4, 0.97);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .Event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  #cardRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #cardRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

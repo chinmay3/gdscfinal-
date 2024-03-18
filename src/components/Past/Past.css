@@ -1,17 +1,16 @@
 .Past {
-  position: relative; /* Ensure position is relative for absolute positioning of highlights */
+  position: relative;
   width: 100%;
   max-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(25, 24, 27);
-  padding: 50px; /* Add padding for better spacing */
+  padding: 50px;
 }
 
 .paragraph-text {
   font-size: 18px;
-  /* Change the font size to your desired value */
   color: #d3d9e3;
 }
 
@@ -21,11 +20,9 @@
 }
 
 .Timeline {
-  width: 80%; /* Adjust the width of the timeline */
+  width: 80%;
   margin: 100px;
 }
-
-/* Other styles... */
 
 .vertical-timeline-element--work {
   width: 1000px;
@@ -33,7 +30,7 @@
 }
 
 .vertical-timeline-element-title {
-  color: #4285f4; /* Set the title color */
+  color: #4285f4;
   font-size: 33px;
   padding-bottom: 15px;
 }
@@ -46,7 +43,7 @@
 .circle {
   height: 16px;
   width: 16px;
-  background-color: #3744cb; /* Set the circle color */
+  background-color: #3744cb;
   margin: auto;
   margin-top: 18px;
   border-radius: 50%;
@@ -61,7 +58,7 @@
   border-radius: 8px;
   width: 175px;
   height: 55px;
-  margin-top: 20px; /* Adjust the margin for better spacing */
+  margin-top: 20px;
   transition: 0.3s ease-in-out;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.411)) top/100% 800%;
 }
@@ -71,7 +68,6 @@
   cursor: pointer;
 }
 
-/* Add unique styles for each button */
 .btn1 {
   background-color: #3744cb !important;
   color: white;
@@ -82,43 +78,43 @@
   color: white;
 }
 
-/* Add styles for other buttons if needed */
+/* Media queries for mobile phones */
+@media (max-width: 768px) {
+  .Past {
+    padding: 20px;
+  }
 
-@media screen and (max-width: 991px) {
-  .logobutton button {
-    margin-top: 10px; /* Adjust the margin for smaller screens */
+  .paragraph-text {
+    font-size: 16px;
   }
 
   .Timeline {
-    display: none;
+    margin: 50px;
   }
 
-  .line,
+  .vertical-timeline-element--work {
+    width: 100%;
+    transform: none;
+  }
+
+  .vertical-timeline-element-title {
+    font-size: 28px;
+  }
+
+  .vertical-timeline-element-subtitle {
+    font-size: 18px;
+  }
+
   .circle {
-    display: none;
+    height: 12px;
+    width: 12px;
+    margin-top: 14px;
   }
-}
 
-.vertical-timeline::before {
-  width: 12px !important; /* Adjust the width as needed */
-}
-
-.vertical-timeline-element-content {
-  position: relative; /* Ensure position is relative for absolute positioning of highlights */
-}
-
-.vertical-timeline-element-content::after {
-  content: ""; /* Create a pseudo-element for the neon highlight */
-  position: absolute;
-  bottom: -12px; /* Position the highlight below the box */
-  left: 0;
-  width: 100%;
-  height: 13px; /* Adjust the height of the highlight as needed */
-  background: linear-gradient(
-    to right,
-    #0800ff,
-    #6f00ff
-  ); /* Use neon colors for gradient */
-  opacity: 0.6; /* Adjust opacity as needed */
-  border-radius: 1px; /* Add border-radius for rounded corners */
+  .logobutton2 button {
+    font-size: 14px;
+    width: 150px;
+    height: 45px;
+    margin-top: 10px;
+  }
 }
