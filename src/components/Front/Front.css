@@ -1,15 +1,3 @@
-/* .BarbarianContainer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px; 
-}
-
-.Barbarian {
-  width: 90%;
-  height: 90%;
-  object-fit: contain;
-} */
-
 .hackathonlogo {
   width: 550px;
   transform: translate(410px, -200px);
@@ -51,10 +39,10 @@
   color: rgb(126, 122, 122);
 }
 
-.Barbicon {
+/* .Barbicon {
   transform: translate(370px, -100px);
   width: 320px;
-}
+} */
 
 .timer {
   display: flex;
@@ -231,11 +219,11 @@ h1 {
   h1 {
     font-size: 3.8vw;
   }
-  .Barbicon {
+  /* .Barbicon {
     transform: translate(0px, 0px);
     width: 200px;
     margin-top: 200px;
-  }
+  } */
   .HeroText {
     width: 100%;
     transform: translate(0px, 0px);
@@ -258,5 +246,70 @@ h1 {
   .Registerbutton {
     transform: translate(0px, 0px);
     margin: 50px 0;
+  }
+}
+
+.Barbicon {
+  transform: translate(370px, -100px);
+  width: 320px;
+}
+
+.Barbicon {
+  transform: translate(370px, -100px);
+  width: 320px;
+}
+
+.Barbicon img {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-45px);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-37px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-20px);
+  }
+  90% {
+    transform: translateY(0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: 10; /* Change to 3 iterations */
+}
+
+@media only screen and (max-width: 705px) {
+  .Barbicon {
+    transform: translate(0px, 0px);
+    width: 200px; /* Adjust width for smaller screens */
+    margin-top: 50px; /* Adjust margin-top for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Barbicon {
+    margin-top: 20px; /* Further adjust margin-top for even smaller screens */
   }
 }

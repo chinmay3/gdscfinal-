@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./Front.css";
 import Group2 from "../../images/Group2.png";
-// import { motion } from "framer-motion"; // Import motion from framer-motion
 
-import TextLogo from "../../images/uottahack19.png";
 import BarbarianInfoImage from "../../images/Barbarian_info.png"; // Update the import path
 
 import Egg from "../Egg/Egg.js";
 
 const Front = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [isHopping, setIsHopping] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -17,6 +16,10 @@ const Front = () => {
     }, 1000);
 
     return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    startHopAnimation(); // Start the animation when the component mounts
   }, []);
 
   function calculateTimeLeft() {
@@ -41,13 +44,20 @@ const Front = () => {
     return { days, hours, minutes, seconds };
   }
 
+  const startHopAnimation = () => {
+    setIsHopping(true);
+    setTimeout(() => setIsHopping(false), 3000); // Reset the hopping state after 500ms
+  };
+
   return (
     <div className="Front">
       <div className="Hero">
-        <div className="">
-          <div className="Barbicon">
-            <img src={BarbarianInfoImage} alt="Barbarian Info" />
-          </div>
+        <div className="Barbicon" onClick={startHopAnimation}>
+          <img
+            src={BarbarianInfoImage}
+            alt="Barbarian Info"
+            className={isHopping ? "hopping bounce" : ""}
+          />
         </div>
         <div className="HeroText">
           <div className="hackathonlogo">
@@ -74,7 +84,14 @@ const Front = () => {
         </div>
 
         <div className="Registerbutton">
-          <button className="btnreg">Register Here →</button>
+          <a
+            href="https://docs.google.com/forms/d/1oqgYriRCjUx1mm9PQt0y9fDlk2GepEljUNQJZ2ttrKw/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btnreg"
+          >
+            Register Here →
+          </a>{" "}
         </div>
         <Egg />
       </div>

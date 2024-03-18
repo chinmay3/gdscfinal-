@@ -6,6 +6,23 @@ class About extends Component {
     return (
       <div className="about-container">
         <div className="About" id="About">
+          <div className="letter-image">
+            <div className="animated-mail">
+              <div className="back-fold" />
+              <div className="letter">
+                <div className="letter-border" />
+                <div className="letter-title" />
+                <div className="letter-context" />
+                <div className="letter-stamp">
+                  <div className="letter-stamp-inner" />
+                </div>
+              </div>
+              <div className="top-fold" />
+              <div className="body" />
+              <div className="left-fold" />
+            </div>
+            <div className="shadow" />
+          </div>
           <div className="gradient-cards">
             {/* Existing content */}
             <div className="card">
