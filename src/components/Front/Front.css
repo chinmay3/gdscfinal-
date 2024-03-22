@@ -135,10 +135,10 @@ h1 {
 
 .btnreg {
   appearance: none;
-  background-color: #f4bd32;
-  border-radius: 40em;
+  background-color: #2e2d2c;
+  border-radius: 3cqb;
   border-style: none;
-  box-shadow: #ff6314 0 -6px 6px inset;
+  box-shadow: #424140 0 -6px 6px inset;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
@@ -157,10 +157,11 @@ h1 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: 300px;
 }
 
 .btnreg:hover {
-  background-color: #f2ca65;
+  background-color: #585651;
   box-shadow: #272621 0 -6px 8px inset;
   transform: scale(1.125);
 }
