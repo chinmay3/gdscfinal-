@@ -85,18 +85,12 @@ const Front = () => {
         </div>
 
         <div className="Registerbutton">
-          <a
-            href="https://devfolio.co/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btnreg"
-          >
-            <img
-              src={devlogo}
-              alt="Devfolio Logo"
-              style={{ width: "160px", height: "auto" }}
-            />
-          </a>{" "}
+          <button className="btnreg">
+            <a href="https://devfolio.co/">
+            <img src={devlogo} alt="Devfolio Logo"
+            style={{ width: "160px", height: "auto" }} />
+            </a>
+          </button>
         </div>
 
         <Egg />
