@@ -19,10 +19,10 @@ class Partners extends Component {
       <div id="Sponsors">
         <div className="ui centered grid" id="blurWrap">
           <div className="row">
-            <a href="" target="_blank">
+            <a href="https://devfolio.co/" target="_blank">
               <img src={images["dev.png"]} style={{ width: "275px" }} />
             </a>
-            <a href="" target="_blank">
+            <a href="https://polygon.technology/" target="_blank">
               <img src={images["polygon.png"]} style={{ width: "275px" }} />
             </a>
             <a href="" target="_blank">
