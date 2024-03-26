@@ -14,12 +14,12 @@
   width: 100%;
   text-align: center;
   background-color: #86b971;
-  padding: 0 30px -10px; /* Adjust padding as needed */
+  /* padding: 0 30px -10px;  */
   position: absolute;
   bottom: 0;
   left: 0;
   transform: translateY(0);
-  transition: all 0.35s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+  /* transition: all 0.35s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97); */
   will-change: bottom, background-color, transform, padding;
   z-index: 1;
 }
@@ -64,8 +64,8 @@
 
 .card-hover:hover .card-hover__link {
   opacity: 1;
-  transform: translate(-50%, 0);
-  transition: all 0.3s 0.35s cubic-bezier(0.1, 0.72, 0.4, 0.97);
+  transform: translate(-50%, 40%);
+  transition: all 0.1s 0.15s cubic-bezier(0, 0.22, 0.1, 0.37);
 }
 
 .card-hover:hover img {
@@ -118,8 +118,10 @@
   text-decoration: none;
   color: #2d7f0b;
   opacity: 0;
-  padding: 10px;
-  transition: all 0.35s;
+  padding: 0px;
+  /* transition: all 0.35s; */
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .card-hover__link:hover svg {
@@ -127,9 +129,9 @@
 }
 
 .card-hover__link svg {
-  width: 18px;
+  width: 3px;
   margin-left: 4px;
-  transition: transform 0.3s;
+  /* transition: transform 0.3s; */
 }
 
 .card-hover__extra span {
@@ -155,3 +157,24 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.card-hover__title {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: block; /* Ensure the title is initially visible */
+}
+.card-hover:hover .card-hover__title {
+  /* Hide the title on hover */
+  display: none;
+}
+
+/* Update CSS to target img elements */
+.card-hover__link img {
+  /* Adjust width and height as needed */
+  width: 44px; /* Example width */
+  height: 44px; /* Example height */
+}
+
+/* Rest of your CSS styles */

@@ -15,7 +15,7 @@ class Section extends Component {
     Timeline: "#4285f4",
     Themes: "green",
     Sponsors: "orange",
-    Partners: "purple",
+    Partners: "green",
     FAQ: "#ea4335",
     "Our Team": "brown"
   };

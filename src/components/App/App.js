@@ -32,10 +32,10 @@ class App extends Component {
         //   sectionName: "Sponsors",
         //   subtitle: ""
         // },
-        // {
-        //   sectionName: "Partners",
-        //   subtitle: ""
-        // },
+        {
+          sectionName: "Partners",
+          subtitle: ""
+        },
         {
           sectionName: "FAQ",
           subtitle: ""
