@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import pdfIcon from "../../images/pdf.svg";
+// import ProblemStatementsPDF from "../../../public/ProblemStatements.pdf"; // Importing the PDF file
+
 import "./Event.css";
 import { Card } from "semantic-ui-react";
 import theme1 from "../../images/theme1.png";
@@ -19,56 +22,56 @@ class Event extends Component {
     // Array of card data
     const cardsData = [
       {
-        title: "HealthTech for Mental Well-being",
+        title: "MedTech / BioTech / HealthTech",
         text: "",
         link: "#",
         discount: "10%",
         imageUrl: theme1
       },
       {
-        title: "Augmented Reality for Education",
+        title: "Agriculture, FoodTech & Rural Development  ",
         text: "",
         link: "#",
         discount: "20%",
         imageUrl: theme2
       },
       {
-        title: "Community-driven Solutions",
+        title: "Disaster Management   ",
         text: "",
         link: "#",
         discount: "30%",
         imageUrl: theme3
       },
       {
-        title: "AI-Powered Accessibility Tools",
+        title: "Fintech ",
         text: "",
         link: "#",
         discount: "40%",
         imageUrl: theme4
       },
       {
-        title: "Blockchain for Social Impact",
+        title: "Miscellaneous",
         text: "",
         link: "#",
         discount: "50%",
         imageUrl: theme5
       },
       {
-        title: "Cybersecurity Challenges",
+        title: "Blockchain & Cybersecurity",
         text: "",
         link: "#",
         discount: "60%",
         imageUrl: theme6
       },
       {
-        title: "IoT for Smart Cities",
+        title: "Clean & Green Technology",
         text: "",
         link: "#",
         discount: "70%",
         imageUrl: theme7
       },
       {
-        title: "Gaming for Education",
+        title: "Tourism ",
         text: "",
         link: "#",
         discount: "80%",
@@ -85,18 +88,14 @@ class Event extends Component {
                 <div className="card-hover__content">
                   <h3 className="card-hover__title">{card.title}</h3>
                   <p className="card-hover__text">{card.text}</p>
-                  <a href={card.link} className="card-hover__link">
-                    <span>Learn How</span>
-                    <svg
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
+                  <a
+                    href="/ProblemStatements.pdf"
+                    className="card-hover__link"
+                    download="ProblemStatements.pdf"
+                  >
+                    <span>DOWNLOAD DETAILED PROBLEM STATEMENT </span>
+                    <img src={pdfIcon} alt="PDF Icon" />{" "}
+                    {/* Using pdf.svg icon */}
                   </a>
                 </div>
                 <div className="card-hover__extra">
