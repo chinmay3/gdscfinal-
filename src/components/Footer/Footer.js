@@ -1,72 +1,67 @@
 import React from "react";
-import "./Footer.css";
-import FooterLogo from "../../images/uottahack19-black.png";
+import "./Footer.css"; // Assuming you have a CSS file for styling
 
-function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => {
-    images[item.replace("./", "")] = r(item);
-  });
-  return images;
-}
-
-const images = importAll(
-  require.context("../../images", false, /\.(png|jpe?g|svg)$/)
-);
-
-const footer = () => {
+const Footer = () => {
   return (
-    <div className="Footer">
-      <div className="FooterBody">
-        <div className="FooterLogo">
-          <img src={images["hacklogo.png"]} alt="Logo" />
-        </div>
-        <div className="LogoText">
-          <p>CodeClash By GDSC BVP</p>
-        </div>
-        <div class="FooterContainer">
-          <div className="MediaLinks">
-            <a href="https://twitter.com/dsc_bvp" target="_blank">
-              <box-icon
-                name="twitter"
-                class="bx-tada-hover"
-                type="logo"
-                color="black"
-              />
-            </a>
-            <a href="https://www.facebook.com/DSCBVP/" target="_blank">
-              <box-icon
-                type="logo"
-                class="bx-tada-hover"
-                name="facebook-square"
-                color="black"
-              />
-            </a>
-            <a href="https://www.instagram.com/gdscbvp/" target="_blank">
-              <box-icon
-                name="instagram"
-                class="bx-tada-hover"
-                type="logo"
-                color="black"
-              />
-            </a>
-
-            <a href="https://www.linkedin.com/company/dsc-bvp/" target="_blank">
-              <box-icon
-                name="linkedin"
-                class="bx-tada-hover"
-                type="logo"
-                color="black"
-              />
-            </a>
-          </div>
-          <div class="Signature">
-            <p>Made with &#10084;&#65039; by the GDSC Tech Team!</p>
-          </div>
-        </div>
+    <footer className="custom-footer">
+      <div className="custom-waves">
+        <div className="custom-wave" id="wave1" />
+        <div className="custom-wave" id="wave2" />
+        <div className="custom-wave" id="wave3" />
+        <div className="custom-wave" id="wave4" />
       </div>
-    </div>
+      <ul className="custom-social">
+        <li className="custom-social__item">
+          <a className="custom-social__link" href="#">
+            <ion-icon name="logo-facebook" />
+          </a>
+        </li>
+        <li className="custom-social__item">
+          <a className="custom-social__link" href="#">
+            <ion-icon name="logo-twitter" />
+          </a>
+        </li>
+        <li className="custom-social__item">
+          <a className="custom-social__link" href="#">
+            <ion-icon name="logo-linkedin" />
+          </a>
+        </li>
+        <li className="custom-social__item">
+          <a className="custom-social__link" href="#">
+            <ion-icon name="logo-instagram" />
+          </a>
+        </li>
+      </ul>
+      <ul className="custom-menu">
+        <li className="custom-menu__item">
+          <a className="custom-menu__link" href="#">
+            Home
+          </a>
+        </li>
+        <li className="custom-menu__item">
+          <a className="custom-menu__link" href="#">
+            About
+          </a>
+        </li>
+        <li className="custom-menu__item">
+          <a className="custom-menu__link" href="#">
+            Services
+          </a>
+        </li>
+        <li className="custom-menu__item">
+          <a className="custom-menu__link" href="#">
+            Team
+          </a>
+        </li>
+        <li className="custom-menu__item">
+          <a className="custom-menu__link" href="#">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
+    </footer>
   );
 };
 
-export default footer;
+export default Footer;
