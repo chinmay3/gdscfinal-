@@ -17,7 +17,8 @@
   }
 
   .Navbar img {
-    margin-top: 26px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     margin-left: 300px;
     height: auto;
     width: 42px;
