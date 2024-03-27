@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(25, 24, 27);
-  padding: 50px;
 }
 
 .paragraph-text {
@@ -21,17 +20,20 @@
 
 .Timeline {
   width: 80%;
-  margin: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
 }
 
 .vertical-timeline-element--work {
   width: 1000px;
-  transform: translateX(-100px);
+  height: 100px;
+  transform: translateX(-65px);
 }
 
 .vertical-timeline-element-title {
   color: #4285f4;
-  font-size: 33px;
+  font-size: 25px;
   padding-bottom: 15px;
 }
 
@@ -89,11 +91,13 @@
   }
 
   .Timeline {
-    margin: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .vertical-timeline-element--work {
     width: 100%;
+    height: auto;
     transform: none;
   }
 
