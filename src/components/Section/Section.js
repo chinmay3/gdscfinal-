@@ -15,7 +15,7 @@ class Section extends Component {
     Timeline: "#4285f4",
     Themes: "green",
     Sponsors: "orange",
-    Partners: "green",
+    Partners: "#f9ab00",
     FAQ: "#ea4335",
     "Our Team": "brown"
   };
@@ -30,10 +30,10 @@ class Section extends Component {
         <h2 style={{ color: color }}>{this.props.section.sectionName}</h2>
         <h3>{this.props.section.subtitle}</h3>
         {this.props.section.sectionName === "About this hackathon" && <About />}
+        {this.props.section.sectionName === "Partners" && <Partners />}
         {this.props.section.sectionName === "Timeline" && <Past />}
         {this.props.section.sectionName === "Themes" && <Event />}
         {this.props.section.sectionName === "Sponsors" && <Sponsor />}
-        {this.props.section.sectionName === "Partners" && <Partners />}
         {this.props.section.sectionName === "FAQ" && <Contact />}
         {this.props.section.sectionName === "Our Team" && <Organizer />}
       </div>
