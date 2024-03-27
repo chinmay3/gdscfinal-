@@ -16,7 +16,7 @@
   justify-content: center;
   text-align: center;
   height: 75vh;
-  margin-bottom: 33vh;
+  margin-bottom: 13vh;
   z-index: 1;
 }
 
@@ -251,13 +251,8 @@ h1 {
 }
 
 .Barbicon {
-  transform: translate(370px, -100px);
-  width: 320px;
-}
-
-.Barbicon {
-  transform: translate(370px, -100px);
-  width: 320px;
+  transform: translate(370px, -40px);
+  width: 300px;
 }
 
 .Barbicon img {
@@ -305,7 +300,7 @@ h1 {
   .Barbicon {
     transform: translate(0px, 0px);
     width: 200px; /* Adjust width for smaller screens */
-    margin-top: 50px; /* Adjust margin-top for smaller screens */
+    margin-top: 100px; /* Adjust margin-top for smaller screens */
   }
 }
 
