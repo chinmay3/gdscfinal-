@@ -21,21 +21,23 @@ class App extends Component {
           subtitle: ""
         },
         {
-          sectionName: "Timeline",
-          subTitle: ""
+          sectionName: "Partners",
+          subtitle: ""
         },
         {
           sectionName: "Themes",
           subtitle: ""
         },
+        {
+          sectionName: "Timeline",
+          subTitle: ""
+        },
+
         // {
         //   sectionName: "Sponsors",
         //   subtitle: ""
         // },
-        {
-          sectionName: "Partners",
-          subtitle: ""
-        },
+
         {
           sectionName: "FAQ",
           subtitle: ""
