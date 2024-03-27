@@ -5,7 +5,14 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { MdTablet } from "react-icons/md";
+import { MdEmojiFoodBeverage, MdFreeBreakfast } from "react-icons/md";
+import { IoFastFood } from "react-icons/io5";
+import { FaComputer } from "react-icons/fa6";
+import { HiMiniTrophy } from "react-icons/hi2";
+
+import { BsPersonWorkspace } from "react-icons/bs";
+
+import { GiArchiveRegister, GiCandleLight, GiLaptop } from "react-icons/gi";
 
 class Past extends Component {
   render() {
@@ -21,22 +28,14 @@ class Past extends Component {
                     contentStyle={{ background: "#3F4047", color: "white" }}
                     contentArrowStyle={{ borderRight: "7px solid white" }}
                     iconStyle={{ background: "#2E0085", color: "beige" }}
-                    icon={<MdTablet />}
+                    icon={<GiArchiveRegister />}
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Ideathon
+                      Registration Starts
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Time: 10-10:30 am to 2 pm
+                      8 AM ~ 10 AM
                     </h4>
-                    <p className="paragraph-text">
-                      Participants brainstorm and pitch ideas. Ideas pitched to
-                      judges/community.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <button className="btn1">Event Link →</button>
-                    </div>
                   </VerticalTimelineElement>
 
                   <VerticalTimelineElement
@@ -46,22 +45,14 @@ class Past extends Component {
                       borderRight: "7px solid  rgb(33, 150, 243)"
                     }}
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
+                    icon={<GiCandleLight />}
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Mentorship Round
+                      Opening Ceremony
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Time: 2-3 pm
+                      10 AM ~ 11 AM
                     </h4>
-                    <p className="paragraph-text">
-                      Mentorship sessions provided for refinement and idea
-                      development.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <button className="btn1">Event Link →</button>
-                    </div>
                   </VerticalTimelineElement>
 
                   <VerticalTimelineElement
@@ -71,22 +62,14 @@ class Past extends Component {
                       borderRight: "7px solid  rgb(33, 150, 243)"
                     }}
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
+                    icon={<GiLaptop />}
                   >
                     <h3 className="vertical-timeline-element-title">
-                      PPT and Structured Model round
+                      Round 1 Starts
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Time: 3 pm to 6 pm
+                      11 AM Onwards
                     </h4>
-                    <p className="paragraph-text">
-                      Teams develop prototypes. Presentations and judging based
-                      on novelty, functionality, feasibility.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <button className="btn1">Event Link →</button>
-                    </div>
                   </VerticalTimelineElement>
 
                   <VerticalTimelineElement
@@ -96,21 +79,12 @@ class Past extends Component {
                       borderRight: "7px solid  rgb(33, 150, 243)"
                     }}
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
+                    icon={<MdEmojiFoodBeverage />}
                   >
-                    <h3 className="vertical-timeline-element-title">
-                      Judging Round
-                    </h3>
+                    <h3 className="vertical-timeline-element-title">Snacks</h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Time: 6-7 pm
+                      5:30 PM
                     </h4>
-                    <p className="paragraph-text">
-                      Judges select promising ideas.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <button className="btn1">Event Link →</button>
-                    </div>
                   </VerticalTimelineElement>
 
                   <VerticalTimelineElement
@@ -120,23 +94,14 @@ class Past extends Component {
                       borderRight: "7px solid  rgb(33, 150, 243)"
                     }}
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
+                    icon={<BsPersonWorkspace />}
                   >
                     <h3 className="vertical-timeline-element-title">
-                      Final presentation and Project round
+                      Round 2 Starts
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Time: till 3 pm
+                      7:30 PM Onwards
                     </h4>
-                    <p className="paragraph-text">
-                      Project introduction and problem statement. Solution
-                      description and technical implementation. Future plans and
-                      impact discussed.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <button className="btn1">Event Link →</button>
-                    </div>
                   </VerticalTimelineElement>
 
                   <VerticalTimelineElement
@@ -146,26 +111,60 @@ class Past extends Component {
                       borderRight: "7px solid  rgb(33, 150, 243)"
                     }}
                     iconStyle={{ background: "#2E0085", color: "#fff" }}
-                    icon={<MdTablet />}
+                    icon={<IoFastFood />}
                   >
-                    <h3 className="vertical-timeline-element-title">
-                      Final Judgment Round
-                    </h3>
+                    <h3 className="vertical-timeline-element-title">Dinner</h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      Time: 3-4 pm
+                      9:30 PM
                     </h4>
-                    <p className="paragraph-text">
-                      Only the Projects with most feasible solutions and
-                      implementations are selected, based on the Judges and
-                      Organising Team.
-                    </p>
-                    <div className="circle" />
-                    <div className="logobutton2">
-                      <button className="btn1">Event Link →</button>
-                    </div>
                   </VerticalTimelineElement>
 
-                  {/* Repeat the pattern for other years and hackathons */}
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<MdFreeBreakfast />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Breakfast
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">8 AM</h4>
+                  </VerticalTimelineElement>
+
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<FaComputer />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Round 3 Starts
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">9 AM</h4>
+                  </VerticalTimelineElement>
+
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<HiMiniTrophy />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Closing Ceremony
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      12 PM
+                    </h4>
+                  </VerticalTimelineElement>
                 </VerticalTimeline>
               </div>
             </div>
