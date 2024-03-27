@@ -20,7 +20,7 @@ class Contact extends Component {
           <h3 />
           <Button secondary animated size="large">
             <Button.Content visible>
-              Is there a registration fee for this hackathon{" "}
+              Is there a registration fee for this hackathon?{" "}
             </Button.Content>
             <Button.Content hidden>
               No, this hackathon is open to all for free
@@ -30,8 +30,8 @@ class Contact extends Component {
           <h3> </h3>
           <Button animated size="large" className="third">
             <Button.Content visible>
-              Is it required for all the members of my team to be from the same
-              college{" "}
+              Is it required for all the members of the team to be from the same
+              college?{" "}
             </Button.Content>
             <Button.Content hidden>
               No, the participants of a team can be from different colleges.
@@ -41,7 +41,7 @@ class Contact extends Component {
           <h3> </h3>
           <Button animated size="large" className="fourth">
             <Button.Content visible>
-              Will the hackathon be online or offline{" "}
+              Will the hackathon be online or offline?{" "}
             </Button.Content>
             <Button.Content hidden>
               The hackathon will be offline{" "}
