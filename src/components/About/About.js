@@ -28,25 +28,24 @@ class About extends Component {
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-description">
-                  We cordially invite your students to participate in the
-                  In-Person – Global Hackathon, a 24-hour event called
-                  CodeClash, which will be held on the 19th of April at Bharati
-                  Vidhyapeeth’s College of Engineering. We are expecting active
-                  participation of near and about 80+ teams to develop and
-                  compete for innovative solutions across diverse themes like
-                  Healthcare, Fintech & E-commerce, Smart Education,
-                  Sustainability & Development, Open Innovation.
+                  Code Clash is a thrilling 24-hour offline hackathon set to
+                  ignite the innovative spirit of 350+ participants, drawn from
+                  a pool of over 1500 enthusiastic registrants. Hosted with a
+                  passion for coding, this event promises an unforgettable
+                  experience filled with intense coding sessions, collaborative
+                  problem-solving, and the thrill of competition. Fueling
+                  creativity, the hackathon offers not only refreshments and
+                  meals but also exclusive swags and charms for the runner-ups.
                 </p>
               </div>
             </div>
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-description">
-                  The hackathon thrummed with the energy of passionate
-                  participants, each eager to bring their boldest ideas to life.
-                  In this electrifying atmosphere, participants were fueled not
-                  only by their ambition to create but also by the array of
-                  facilities and support at their fingertips.
+                  As participants immerse themselves in the challenges, they
+                  will have the opportunity to showcase their skills, learn from
+                  industry experts, and forge lasting connections in the vibrant
+                  tech community.
                 </p>
               </div>
             </div>
@@ -70,43 +69,65 @@ class About extends Component {
             </div>
             <div className="card">
               <div className="container-card bg-green-box">
-                <p className="card-title">1) Free Food</p>
+                <p className="card-title">1) Prize Pool and Goodies</p>
                 <p className="card-description">
-                  All Hackathon participants enjoy free meals and snacks
-                  throughout the event. Keep your energy high and your
-                  creativity flowing. Stay fueled and focused - your dream
-                  project awaits!
+                  Explore our enticing prize pool, where innovation meets
+                  reward:
+                  <ul>
+                    <li>1st Prize: 15,000 INR</li>
+                    <li>2nd Prize: 10,000 INR</li>
+                    <li>3rd Prize: 5,000 INR</li>
+                  </ul>
+                  We extend recognition to not only the winners but also the
+                  enthusiasm of our esteemed runner-ups by providing them
+                  exciting goodies and charms.
                 </p>
               </div>
             </div>
             <div className="card">
               <div className="container-card bg-green-box">
-                <p className="card-title">2) Goodies for Runner up</p>
+                <p className="card-title">2) Participation Certificates</p>
                 <p className="card-description">
-                  Just for being part of Hackathon, everyone gets free goodies.
-                  It’s our way of saying thanks for being with us.
+                  In addition to receiving exciting swags, each participant will
+                  be awarded a certificate of participation. Furthermore, the
+                  winning team will be honored with a special certificate
+                  recognizing their outstanding achievement!
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="container-card bg-green-box">
+                <p className="card-title">3) Mentorship and Guidance</p>
+                <p className="card-description">
+                  Seasoned mentors offer invaluable guidance to participants,
+                  fostering an environment where every individual can enhance
+                  their problem-solving skills and nurture their projects to
+                  fruition. Mentorship is provided to each participant,
+                  empowering them to learn effectively and elevate their project
+                  development journey
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="container-card bg-green-box">
+                <p className="card-title">4) Fun and surprise gifts:</p>
+                <p className="card-description">
+                  Participants can anticipate exciting surprises and gifts
+                  throughout the event, adding an element of fun and
+                  anticipation to their hacking experience.
                 </p>
               </div>
             </div>
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-title">
-                  3) Certificates For All Participants and Winners{" "}
+                  5) Complimentary Refreshments Throughout the Hackathon!
                 </p>
                 <p className="card-description">
-                  Not only do you get cool stuff, but every participant also
-                  gets a certificate. Plus, the winning team gets a special
-                  certificate for their awesome achievement!
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <div className="container-card bg-green-box">
-                <p className="card-title">4) Fun and surprise gifts</p>
-                <p className="card-description">
-                  Participants can anticipate exciting surprises and gifts
-                  throughout the event, adding an element of fun and
-                  anticipation to their hacking experience.
+                  Indulge in a culinary journey of energy and motivation as we
+                  provide free food and refreshments throughout the hackathon.
+                  Stay fueled, stay focused, and let your creativity soar as you
+                  embark on an unforgettable coding adventure with us!
                 </p>
               </div>
             </div>
