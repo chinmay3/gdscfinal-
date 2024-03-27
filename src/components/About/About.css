@@ -1,6 +1,5 @@
 .About {
   color: rgb(230, 227, 235);
-  margin: 0 auto;
 }
 
 h3 {
@@ -297,4 +296,9 @@ body {
     left: 280px; /* Adjust left position for smaller screens */
     top: -180px; /* Adjust bottom position for smaller screens */
   }
+}
+
+.card-description ul {
+  list-style-position: inside;
+  text-align: left;
 }
