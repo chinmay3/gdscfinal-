@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import pdfIcon from "../../images/pdf.svg";
+
 // import ProblemStatementsPDF from "../../../public/ProblemStatements.pdf"; // Importing the PDF file
 
 import "./Event.css";
@@ -26,56 +27,64 @@ class Event extends Component {
         text: "",
         link: "#",
         discount: "10%",
-        imageUrl: theme1
+        imageUrl: theme1,
+        pdfLink: "/Med.pdf"
       },
       {
         title: "Agriculture, FoodTech & Rural Development  ",
         text: "",
         link: "#",
         discount: "20%",
-        imageUrl: theme2
+        imageUrl: theme2,
+        pdfLink: "/Agri.pdf"
       },
       {
         title: "Disaster Management   ",
         text: "",
         link: "#",
         discount: "30%",
-        imageUrl: theme3
+        imageUrl: theme3,
+        pdfLink: "/Disaster.pdf"
       },
       {
         title: "Fintech ",
         text: "",
         link: "#",
         discount: "40%",
-        imageUrl: theme4
+        imageUrl: theme4,
+        pdfLink: "/Fintech.pdf"
       },
       {
         title: "Miscellaneous",
         text: "",
         link: "#",
         discount: "50%",
-        imageUrl: theme5
+        imageUrl: theme5,
+        pdfLink: "/Misc.pdf"
       },
       {
         title: "Blockchain & Cybersecurity",
         text: "",
         link: "#",
         discount: "60%",
-        imageUrl: theme6
+        imageUrl: theme6,
+        pdfLink: "/Blockchain.pdf"
       },
       {
         title: "Clean & Green Technology",
         text: "",
         link: "#",
         discount: "70%",
-        imageUrl: theme7
+        imageUrl: theme7,
+        pdfLink: "/Clean.pdf"
       },
       {
         title: "Tourism ",
         text: "",
         link: "#",
         discount: "80%",
-        imageUrl: theme8
+        imageUrl: theme8,
+        pdfLink: "/Tourism.pdf"
       }
     ];
 
@@ -89,9 +98,9 @@ class Event extends Component {
                   <h3 className="card-hover__title">{card.title}</h3>
                   <p className="card-hover__text">{card.text}</p>
                   <a
-                    href="/ProblemStatements.pdf"
+                    href={card.pdfLink}
                     className="card-hover__link"
-                    download="ProblemStatements.pdf"
+                    download={`${card.title} Problem Statements.pdf`}
                   >
                     <span>DOWNLOAD DETAILED PROBLEM STATEMENT </span>
                     <img src={pdfIcon} alt="PDF Icon" />{" "}
