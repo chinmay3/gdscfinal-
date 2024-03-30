@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
+import prizePoolImage from "../../images/prize_pool.png";
 
 class About extends Component {
   render() {
@@ -28,24 +29,28 @@ class About extends Component {
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-description">
-                  Code Clash is a thrilling 24-hour offline hackathon set to
-                  ignite the innovative spirit of 350+ participants, drawn from
-                  a pool of over 1500 enthusiastic registrants. Hosted with a
-                  passion for coding, this event promises an unforgettable
-                  experience filled with intense coding sessions, collaborative
-                  problem-solving, and the thrill of competition. Fueling
-                  creativity, the hackathon offers not only refreshments and
-                  meals but also exclusive swags and charms for the runner-ups.
+                  CodeClash is an exhilarating 24-hour hackathon experience that
+                  merges innovation with determination! Prepare yourself, tech
+                  enthusiasts, for a coding extravaganza designed to ignite your
+                  passion and test your skills like never before. Dive into a
+                  marathon of coding, collaboration, and creativity at this
+                  ultimate hackathon event. Join us for an adrenaline-fueled
+                  adventure where ideas transform into reality and dreams into
+                  achievements. Unleash your coding genius, compete with the
+                  best, and let every keystroke bring you closer to victory.
+                  This is more than just a hackathon; it's a journey of
+                  discovery, collaboration, and celebration of the coding
+                  spirit. Join us and be part of something extraordinary!
                 </p>
               </div>
             </div>
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-description">
-                  As participants immerse themselves in the challenges, they
-                  will have the opportunity to showcase their skills, learn from
-                  industry experts, and forge lasting connections in the vibrant
-                  tech community.
+                  Participants at Code Clash will have the chance to demonstrate
+                  their abilities, gain insights from industry leaders, and
+                  build enduring relationships within the dynamic tech
+                  community.
                 </p>
               </div>
             </div>
@@ -57,31 +62,30 @@ class About extends Component {
                   What participants can expect from this event:
                 </p>
                 <p className="card-description">
-                  1. Distinguished mentors provide guidance to participants,
-                  enabling them to learn valuable problem-solving skills.{" "}
+                  1. Distinguished mentors will offer guidance to participants,
+                  helping them acquire valuable problem-solving skills.
                 </p>
                 <p className="card-description">
-                  2. Engaging activities, delicious food, and intellectual
-                  stimulation throughout the event. We are also providing
-                  additional perks for the participants:
+                  2. The event promises engaging activities, delightful cuisine,
+                  and intellectual stimulation throughout. Additionally,
+                  participants can enjoy extra perks during the event.
                 </p>
               </div>
             </div>
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-title">1) Prize Pool and Goodies</p>
-                <p className="card-description">
-                  Explore our enticing prize pool, where innovation meets
-                  reward:
-                  <ul>
-                    <li>1st Prize: 15,000 INR</li>
-                    <li>2nd Prize: 10,000 INR</li>
-                    <li>3rd Prize: 5,000 INR</li>
-                  </ul>
-                  We extend recognition to not only the winners but also the
-                  enthusiasm of our esteemed runner-ups by providing them
-                  exciting goodies and charms.
-                </p>
+                <div className="prize-pool-container">
+                  <img
+                    src={prizePoolImage}
+                    alt="Prize Pool"
+                    className="prize-pool-image"
+                  />
+                  <p className="card-description-prize">
+                    <br />
+                    EXCITING GOODIES AND SWAG POINTS
+                  </p>
+                </div>
               </div>
             </div>
             <div className="card">
@@ -112,9 +116,9 @@ class About extends Component {
               <div className="container-card bg-green-box">
                 <p className="card-title">4) Fun and surprise gifts:</p>
                 <p className="card-description">
-                  Participants can anticipate exciting surprises and gifts
-                  throughout the event, adding an element of fun and
-                  anticipation to their hacking experience.
+                  Throughout the event, participants can look forward to
+                  exciting surprises and gifts, enhancing the fun and
+                  anticipation of their hacking experience.
                 </p>
               </div>
             </div>
@@ -125,9 +129,10 @@ class About extends Component {
                 </p>
                 <p className="card-description">
                   Indulge in a culinary journey of energy and motivation as we
-                  provide free food and refreshments throughout the hackathon.
-                  Stay fueled, stay focused, and let your creativity soar as you
-                  embark on an unforgettable coding adventure with us!
+                  provide complimentary food and refreshments throughout the
+                  hackathon. Stay fueled, stay focused, and let your creativity
+                  soar as you embark on an unforgettable coding adventure with
+                  us!
                 </p>
               </div>
             </div>
