@@ -40,8 +40,11 @@ const navbar = () => {
             offset={-150}
             duration={500}
           >
-            <img src={images["GDSC.png"]} alt="Logo" 
-            style={{ width: "200px", height: "auto" }}/>
+            <img
+              src={images["GDSC.png"]}
+              alt="Logo"
+              style={{ width: "200px", height: "auto" }}
+            />
           </Link>
         </div>
         <div className="PageLinks">
@@ -54,9 +57,6 @@ const navbar = () => {
           >
             About
           </Link>
-          <Link to="Past" spy={true} smooth={true} offset={-150} duration={500}>
-            Timeline
-          </Link>
           <Link
             to="Events"
             spy={true}
@@ -65,6 +65,18 @@ const navbar = () => {
             duration={500}
           >
             Themes
+          </Link>
+          <Link
+            to="Organizer"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            Our Team
+          </Link>
+          <Link to="Past" spy={true} smooth={true} offset={-150} duration={500}>
+            Timeline
           </Link>
           <Link
             to="Sponsors"
