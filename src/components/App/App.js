@@ -17,35 +17,35 @@ class App extends Component {
     this.setState({
       sections: [
         {
-          sectionName: "About this hackathon",
+          sectionName: "About The Hackathon",
           subtitle: ""
         },
-        {
-          sectionName: "Partners",
-          subtitle: ""
-        },
+
         {
           sectionName: "Themes",
+          subtitle: ""
+        },
+        {
+          sectionName: "Our Team",
           subtitle: ""
         },
         {
           sectionName: "Timeline",
           subTitle: ""
         },
-
-        // {
-        //   sectionName: "Sponsors",
-        //   subtitle: ""
-        // },
+        {
+          sectionName: "Partners",
+          subtitle: ""
+        },
+        {
+          sectionName: "Sponsors",
+          subtitle: ""
+        },
 
         {
           sectionName: "FAQ",
           subtitle: ""
         }
-        // {
-        //   sectionName: "Our Team",
-        //   subtitle: ""
-        // }
       ]
     });
   }
@@ -57,7 +57,7 @@ class App extends Component {
         <Front />
         <Page section={this.state.sections} />
         <hr />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
