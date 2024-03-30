@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css"; // Assuming you have a CSS file for styling
+import Wave from "../../images/dark_wave.png";
 
 const Footer = () => {
   return (
