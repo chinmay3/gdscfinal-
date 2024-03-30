@@ -65,9 +65,6 @@ body {
   background-clip: padding-box;
   border-radius: 45px;
   padding: 40px;
-  img {
-    margin-bottom: 32px;
-  }
 }
 
 .bg-green-box {
@@ -301,4 +298,55 @@ body {
 .card-description ul {
   list-style-position: inside;
   text-align: left;
+}
+
+.prize-pool-image {
+  width: 350px;
+  height: auto;
+
+  position: absolute;
+  top: 50%; /* Move the image down by 50% of the container's height */
+  left: 50%; /* Move the image right by 50% of the container's width */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the image both horizontally and vertically */
+  margin-top: 30px 0; /* Adjust margin as needed */
+  margin-bottom: 30px 0; /* Adjust margin as needed */
+}
+
+.card-description-prize {
+  font-weight: 800;
+  line-height: 32px;
+  margin-top: 70px;
+  color: hsla(0, 85%, 61%, 0.672);
+  font-size: 26px;
+  max-width: 1000px;
+
+  transform: translate(18%, 0%);
+}
+
+@media only screen and (max-width: 500px) {
+  .prize-pool-image {
+    width: 230px;
+    height: auto;
+
+    position: absolute;
+    top: 37%; /* Move the image down by 50% of the container's height */
+    left: 50%; /* Move the image right by 50% of the container's width */
+    transform: translate(
+      -50%,
+      10%
+    ); /* Center the image both horizontally and vertically */
+  }
+  .card-description-prize {
+    font-weight: 800;
+    line-height: 32px;
+    margin-top: 70px;
+    color: hsla(0, 87%, 63%, 0.564);
+    font-size: 20px;
+    max-width: 1000px;
+
+    transform: translate(0%, 0%);
+  }
 }
