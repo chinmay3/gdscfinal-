@@ -11,7 +11,7 @@ import Past from "../Past/Past.js";
 class Section extends Component {
   // Define a mapping of section names to colors
   sectionColors = {
-    "About this hackathon": "#ea4335",
+    "About The Hackathon": "#ea4335",
     Timeline: "#4285f4",
     Themes: "green",
     Sponsors: "orange",
@@ -29,7 +29,7 @@ class Section extends Component {
         {/* Apply the color dynamically to the h2 element */}
         <h2 style={{ color: color }}>{this.props.section.sectionName}</h2>
         <h3>{this.props.section.subtitle}</h3>
-        {this.props.section.sectionName === "About this hackathon" && <About />}
+        {this.props.section.sectionName === "About The Hackathon" && <About />}
         {this.props.section.sectionName === "Partners" && <Partners />}
         {this.props.section.sectionName === "Timeline" && <Past />}
         {this.props.section.sectionName === "Themes" && <Event />}
