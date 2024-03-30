@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Front.css";
-import Group2 from "../../images/Group2.png";
+import Group2 from "../../images/Group3.png";
 import devlogo from "../../images/devfolio_logo.png";
 
 import BarbarianInfoImage from "../../images/Barbarian_info.png"; // Update the import path
@@ -85,12 +85,18 @@ const Front = () => {
         </div>
 
         <div className="Registerbutton">
-          <button className="btnreg">
-            <a href="https://devfolio.co/">
-            <img src={devlogo} alt="Devfolio Logo"
-            style={{ width: "160px", height: "auto" }} />
-            </a>
-          </button>
+          <a
+            href="https://devfolio.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btnreg"
+          >
+            <img
+              src={devlogo}
+              alt="Devfolio Logo"
+              style={{ width: "160px", height: "auto" }}
+            />
+          </a>{" "}
         </div>
 
         <Egg />
