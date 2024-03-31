@@ -57,7 +57,7 @@ class App extends Component {
         <Front />
         <Page section={this.state.sections} />
         <hr />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
