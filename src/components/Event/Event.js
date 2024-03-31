@@ -54,14 +54,7 @@ class Event extends Component {
         imageUrl: theme4,
         pdfLink: "/Fintech.pdf"
       },
-      {
-        title: "Miscellaneous",
-        text: "",
-        link: "#",
-        discount: "50%",
-        imageUrl: theme5,
-        pdfLink: "/Misc.pdf"
-      },
+
       {
         title: "Blockchain & Cybersecurity",
         text: "",
@@ -85,6 +78,14 @@ class Event extends Component {
         discount: "80%",
         imageUrl: theme8,
         pdfLink: "/Tourism.pdf"
+      },
+      {
+        title: "Miscellaneous",
+        text: "",
+        link: "#",
+        discount: "50%",
+        imageUrl: theme5,
+        pdfLink: "/Misc.pdf"
       }
     ];
 

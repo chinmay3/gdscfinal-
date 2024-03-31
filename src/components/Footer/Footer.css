@@ -1,132 +1,200 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-.page-body {
-  display: flex;
-  background: #333;
-  justify-content: flex-end;
-  align-items: flex-end;
-  min-height: 100vh;
-}
-
-.custom-footer {
-  position: relative;
-  width: 100%;
-  background: #3586ff;
-  max-height: 50px;
-  padding: 20px 50px;
-  display: flex;
+.Footer {
   justify-content: center;
-  align-items: center;
+}
+
+.FooterBody {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+}
+
+.FooterLogo {
+  display: block;
+}
+
+.FooterLogo img {
+  width: 175px;
+  height: auto;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+
+.LogoText {
+  color: #f9ab00;
+  display: block;
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.map {
+  margin: auto 0;
+  width: 100%;
+}
+
+.Signature {
+  background: linear-gradient(90deg, #ff3e00 0%, #ffb900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.MediaLinks {
+  color: #f9ab00;
+  display: block;
+}
+
+@media only screen and (max-width: 10000px) {
+  .MediaLinks {
+    display: block;
+    flex-direction: row;
+    float: left;
+    margin: auto;
+  }
+
+  .MediaLinks a {
+    margin: 15px;
+  }
+
+  .FooterLinks {
+    float: left;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 15px;
+  }
+
+  .FooterLinks a {
+    font-size: 12px;
+    color: #0d0d0d;
+    font-weight: 500;
+  }
+
+  .FooterLinks a:hover {
+    text-decoration: underline;
+  }
+
+  .Signature {
+    float: left;
+    margin: auto;
+  }
+
+  .Signature p {
+    font-size: 12px;
+  }
+
+  .FooterContainer {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Changed grid-template-columns */
+    width: 50%;
+    height: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 1520px) {
+  .FooterContainer {
+    display: grid;
+    width: 75%;
+    grid-template-columns: auto;
+    margin-bottom: 25px;
+    gap: 50px;
+  }
+
+  .FooterLinks {
+    float: left;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+.FooterContainer {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Map on left, rest on right */
+  width: 75%;
+  margin-bottom: 25px;
+  grid-column-gap: 20px; /* Add gap between columns */
+}
+
+.map {
+  grid-column: 1; /* Ensure map occupies the first column */
+}
+
+.FooterLogo,
+.LogoText,
+.Signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MediaLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align media links to the left */
+}
+
+.FooterBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content vertically */
+}
+
+.FooterContainer > div {
+  display: flex;
   flex-direction: column;
 }
 
-.custom-social,
-.custom-menu {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
+.Signature {
+  align-self: center; /* Center align the signature */
 }
 
-.custom-social__item,
-.custom-menu__item {
-  list-style: none;
+.Signature p {
+  font-size: 1.4rem; /* Reduce font size */
 }
 
-.custom-social__link {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.custom-social__link:hover {
-  transform: translateY(-10px);
-}
-
-.custom-menu__link {
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.75;
-  font-weight: 300;
-}
-
-.custom-menu__link:hover {
-  opacity: 1;
-}
-
-.custom-footer p {
-  color: #fff;
-  margin: 15px 0 10px 0;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.custom-wave {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
-  background-size: 1000px 100px;
-}
-
-.custom-wave#wave1 {
-  z-index: 1000;
-  opacity: 1;
-  bottom: 0;
-  animation: animateWaves 4s linear infinite;
-}
-
-.custom-wave#wave2 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 10px;
-  animation: animate 4s linear infinite !important;
-}
-
-.custom-wave#wave3 {
-  z-index: 1000;
-  opacity: 0.2;
-  bottom: 15px;
-  animation: animateWaves 3s linear infinite;
-}
-
-.custom-wave#wave4 {
-  z-index: 999;
-  opacity: 0.7;
-  bottom: 20px;
-  animation: animate 3s linear infinite;
-}
-
-@keyframes animateWaves {
-  0% {
-    background-position-x: 1000px;
+@media only screen and (max-width: 768px) {
+  .FooterContainer {
+    grid-template-columns: auto; /* Change to single column layout */
+    margin-top: 0; /* Remove top margin */
   }
-  100% {
-    background-positon-x: 0px;
-  }
-}
 
-@keyframes animate {
-  0% {
-    background-position-x: -1000px;
+  .FooterLogo {
+    margin-bottom: 20px; /* Add space between logo and text */
   }
-  100% {
-    background-positon-x: 0px;
+
+  .FooterLinks {
+    grid-auto-flow: row; /* Change to vertical layout */
+    grid-row-gap: 10px; /* Add gap between links */
+  }
+
+  .MediaLinks {
+    flex-direction: row; /* Align media links horizontally */
+    justify-content: center; /* Center align media links */
+  }
+
+  .FooterContainer {
+    width: 100%; /* Full width container */
+  }
+
+  .FooterLogo img {
+    width: 150px; /* Reduce logo size */
+  }
+
+  .Signature p {
+    font-size: 14px; /* Increase font size */
+  }
+
+  .map {
+    display: none; /* Hide map on smaller screens */
   }
 }

@@ -323,7 +323,32 @@ body {
   font-size: 26px;
   max-width: 1000px;
 
-  transform: translate(18%, 0%);
+  transform: translate(25%, 0%);
+}
+
+@media only screen and (max-width: 700px) {
+  .prize-pool-image {
+    width: 230px;
+    height: auto;
+
+    position: absolute;
+    top: 37%; /* Move the image down by 50% of the container's height */
+    left: 50%; /* Move the image right by 50% of the container's width */
+    transform: translate(
+      -50%,
+      10%
+    ); /* Center the image both horizontally and vertically */
+  }
+  .card-description-prize {
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 70px;
+    color: hsla(0, 87%, 63%, 0.564);
+    font-size: 20px;
+    max-width: 1000px;
+
+    transform: translate(15%, 0%);
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -340,7 +365,7 @@ body {
     ); /* Center the image both horizontally and vertically */
   }
   .card-description-prize {
-    font-weight: 800;
+    font-weight: 600;
     line-height: 32px;
     margin-top: 70px;
     color: hsla(0, 87%, 63%, 0.564);

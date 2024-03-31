@@ -85,8 +85,9 @@ const Front = () => {
         </div>
 
         <div className="Registerbutton">
+          <p className="registerp">Register Here ↓</p>
           <a
-            href="https://devfolio.co/"
+            href="https://codeclash.devfolio.co/"
             target="_blank"
             rel="noopener noreferrer"
             className="btnreg"

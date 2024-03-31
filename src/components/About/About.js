@@ -83,7 +83,7 @@ class About extends Component {
                   />
                   <p className="card-description-prize">
                     <br />
-                    EXCITING GOODIES AND SWAG POINTS
+                    EXCITING GOODIES AND SWAGS
                   </p>
                 </div>
               </div>

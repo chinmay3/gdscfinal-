@@ -16,7 +16,7 @@
   justify-content: center;
   text-align: center;
   height: 75vh;
-  margin-bottom: 13vh;
+  margin-bottom: 20vh;
   z-index: 1;
 }
 
@@ -312,4 +312,9 @@ h1 {
     width: 160px;
     /* Further adjust margin-top for even smaller screens */
   }
+}
+
+.registerp {
+  color: #d1ccbf;
+  margin-bottom: 12px;
 }

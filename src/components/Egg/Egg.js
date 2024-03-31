@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./Egg.css";
 import { Modal, Image } from "semantic-ui-react";
 import Konami from "react-konami-code";
-import PImage from "../../images/priyanshi.jpeg";
-import CImage from "../../images/chinmay.jpeg";
+import PImage from "../../images/pri.jpeg";
+import CImage from "../../images/chin.jpeg";
 
 const pCode = [
   80,
