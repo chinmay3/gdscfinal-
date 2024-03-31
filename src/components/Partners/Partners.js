@@ -43,3 +43,5 @@ class Partners extends Component {
     );
   }
 }
+
+export default Partners;
