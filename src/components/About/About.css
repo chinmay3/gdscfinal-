@@ -349,6 +349,8 @@ body {
 
     transform: translate(15%, 0%);
   }
+
+  /* Add other CSS rules here */
 }
 
 @media only screen and (max-width: 500px) {
@@ -375,3 +377,12 @@ body {
     transform: translate(0%, 0%);
   }
 }
+
+/* About.css */
+
+.card-description {
+  font-size: 18px; /* Adjust the font size as needed */
+  text-align: justify;
+}
+
+/* Add other CSS rules here */

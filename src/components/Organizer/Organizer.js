@@ -46,14 +46,17 @@ function UncontrolledExample() {
           <img src={riyaImage} alt="" className="slide-image" />
         </div>
         <div className="slide">
-          <img src={tusharImage} alt="" className="slide-image" />
+          <img src={avantikaImage} alt="" className="slide-image" />
         </div>
-
         <div className="slide">
           <img src={dhruvImage} alt="" className="slide-image" />
         </div>
         <div className="slide">
-          <img src={avantikaImage} alt="" className="slide-image" />
+          <img src={tusharImage} alt="" className="slide-image" />
+        </div>
+
+        <div className="slide">
+          <img src={ameyaImage} alt="" className="slide-image" />
         </div>
         <div className="slide">
           <img src={shwetaImage} alt="" className="slide-image" />
@@ -67,9 +70,7 @@ function UncontrolledExample() {
         <div className="slide">
           <img src={shreshthImage} alt="" className="slide-image" />
         </div>
-        <div className="slide">
-          <img src={ameyaImage} alt="" className="slide-image" />
-        </div>
+
         <div className="slide">
           <img src={rishiImage} alt="" className="slide-image" />
         </div>

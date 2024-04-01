@@ -71,6 +71,20 @@ class Past extends Component {
                       11 AM Onwards
                     </h4>
                   </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<GiLaptop />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Mentoring Round
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">1 PM</h4>
+                  </VerticalTimelineElement>
 
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -100,7 +114,7 @@ class Past extends Component {
                       Round 2 Starts
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                      7:30 PM Onwards
+                      6:30 PM Onwards
                     </h4>
                   </VerticalTimelineElement>
 
@@ -119,6 +133,22 @@ class Past extends Component {
                     </h4>
                   </VerticalTimelineElement>
 
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: "#3F4047", color: "white" }}
+                    contentArrowStyle={{
+                      borderRight: "7px solid  rgb(33, 150, 243)"
+                    }}
+                    iconStyle={{ background: "#2E0085", color: "#fff" }}
+                    icon={<IoFastFood />}
+                  >
+                    <h3 className="vertical-timeline-element-title">
+                      Implementation followed by mentoring round
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      10:30 PM
+                    </h4>
+                  </VerticalTimelineElement>
                   <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "#3F4047", color: "white" }}

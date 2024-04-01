@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
-  transform: translate(-50px);
+  transform: translate(-50px, -18px);
 }
 
 .timer-box {
@@ -252,7 +252,7 @@ h1 {
 }
 
 .Barbicon {
-  transform: translate(370px, -40px);
+  transform: translate(370px, -70px);
   width: 300px;
 }
 
