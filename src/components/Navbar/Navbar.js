@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import ProfileLogo from "../../images/uOttaHack-Logo.svg";
 import "boxicons";
 import { Link } from "react-scroll";
 
@@ -43,7 +42,7 @@ const navbar = () => {
             <img
               src={images["GDSC.png"]}
               alt="Logo"
-              style={{ width: "200px", height: "auto" }}
+              style={{ width: "350px", height: "auto", marginTop: "20px" }}
             />
           </Link>
         </div>
@@ -67,6 +66,7 @@ const navbar = () => {
             Themes
           </Link>
           <Link
+            className="ourteam"
             to="Organizer"
             spy={true}
             smooth={true}

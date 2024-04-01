@@ -10,7 +10,7 @@
     flex-direction: row;
     position: relative;
     justify-content: space-between;
-    height: 90px;
+    height: 80px;
     align-items: center;
     width: 100%;
     transition: top 1s;
@@ -30,19 +30,27 @@
 
   .PageTitle {
     align-self: flex-start;
+    margin-left: -100px;
   }
 
   .NavLinks {
     display: flex;
     flex-direction: row;
-    margin-right: 300px;
     align-items: center;
+    transform: translate(100px, 0px);
+  }
+
+  .PageLinks .ourteam {
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
   }
 
   .PageLinks {
     margin-right: auto;
     height: auto;
     display: flex;
+    transform: translate(50px, 0px);
   }
 
   .PageLinks a {
@@ -135,6 +143,9 @@
 @media only screen and (max-width: 510px) {
   .NavLinks {
     display: none;
+  }
+  .Navbar img {
+    margin-left: 120px;
   }
 }
 

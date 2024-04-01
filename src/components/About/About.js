@@ -29,18 +29,20 @@ class About extends Component {
             <div className="card">
               <div className="container-card bg-green-box">
                 <p className="card-description">
-                  CodeClash is an exhilarating 24-hour hackathon experience that
-                  merges innovation with determination! Prepare yourself, tech
-                  enthusiasts, for a coding extravaganza designed to ignite your
-                  passion and test your skills like never before. Dive into a
-                  marathon of coding, collaboration, and creativity at this
-                  ultimate hackathon event. Join us for an adrenaline-fueled
-                  adventure where ideas transform into reality and dreams into
-                  achievements. Unleash your coding genius, compete with the
-                  best, and let every keystroke bring you closer to victory.
-                  This is more than just a hackathon; it's a journey of
-                  discovery, collaboration, and celebration of the coding
-                  spirit. Join us and be part of something extraordinary!
+                  "CodeClash is an exhilarating 24-hour hackathon experience
+                  that merges innovation with determination! Mark your calendars
+                  for April 19th-20th and prepare yourself, tech enthusiasts,
+                  for a coding extravaganza designed to ignite your passion and
+                  test your skills like never before. Dive into a marathon of
+                  coding, collaboration, and creativity at this ultimate
+                  hackathon event. Join us at Bharati vidyapeeth college of
+                  engineering for an adrenaline fueled adventure where ideas
+                  transform into reality and dreams into achievements. Unleash
+                  your coding genius, compete with the best, and let every
+                  keystroke bring you closer to victory. This is more than just
+                  a hackathon; it's a journey of discovery, collaboration, and
+                  celebration of the coding spirit. Join us and be part of
+                  something extraordinary!"
                 </p>
               </div>
             </div>
