@@ -22,11 +22,29 @@ class Sponsor extends Component {
             <a href="" target="_blank">
               <img src={images["Ayouth_veda.png"]} style={{ width: "200px" }} />
             </a>
+
             <a href="" target="_blank">
-              <img src={images["detafex.png"]} style={{ width: "275px" }} />
+              <img src={images["sponsor7.png"]} style={{ width: "175px" }} />
             </a>
             <a href="" target="_blank">
-              <img src={images["gmat.jpeg"]} style={{ width: "175px" }} />
+              <img src={images["sponsor4.jpg"]} style={{ width: "175px" }} />
+            </a>
+            <a href="" target="_blank">
+              <img src={images["sponsor5.jpeg"]} style={{ width: "175px" }} />
+            </a>
+
+            <a href="" target="_blank">
+              <img src={images["sponsor8.png"]} style={{ width: "175px" }} />
+            </a>
+            <a href="" target="_blank">
+              <img src={images["sponsor9.png"]} style={{ width: "175px" }} />
+            </a>
+
+            <a href="/" target="_blank">
+              <img src={images["sponsor11.png"]} style={{ width: "175px" }} />
+            </a>
+            <a href="" target="_blank">
+              <img src={images["sponsor12.png"]} style={{ width: "175px" }} />
             </a>
           </div>
         </div>
