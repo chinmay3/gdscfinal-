@@ -14,7 +14,7 @@ class Contact extends Component {
             <Button.Content visible>
               How many members are allowed in the team?{" "}
             </Button.Content>
-            <Button.Content hidden>1-4 members</Button.Content>
+            <Button.Content hidden>2-4 members</Button.Content>
           </Button>
 
           <h3 />

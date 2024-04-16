@@ -19,14 +19,32 @@ class Sponsor extends Component {
       <div id="Sponsors">
         <div className="ui centered grid" id="blurWrap">
           <div className="row">
-            <a href="https://solace.com/" target="_blank">
+            <a href="" target="_blank">
               <img src={images["Ayouth_veda.png"]} style={{ width: "200px" }} />
             </a>
-            <a href="https://innovapost.com/" target="_blank">
-              <img src={images["detafex.png"]} style={{ width: "275px" }} />
+
+            <a href="" target="_blank">
+              <img src={images["sponsor7.png"]} style={{ width: "175px" }} />
             </a>
-            <a href="https://www.nokia.com/" target="_blank">
-              <img src={images["gmat.jpeg"]} style={{ width: "175px" }} />
+            <a href="" target="_blank">
+              <img src={images["sponsor4.jpg"]} style={{ width: "175px" }} />
+            </a>
+            <a href="" target="_blank">
+              <img src={images["sponsor5.jpeg"]} style={{ width: "175px" }} />
+            </a>
+
+            <a href="" target="_blank">
+              <img src={images["sponsor8.png"]} style={{ width: "175px" }} />
+            </a>
+            <a href="" target="_blank">
+              <img src={images["sponsor9.png"]} style={{ width: "175px" }} />
+            </a>
+
+            <a href="/" target="_blank">
+              <img src={images["sponsor11.png"]} style={{ width: "175px" }} />
+            </a>
+            <a href="" target="_blank">
+              <img src={images["sponsor12.png"]} style={{ width: "175px" }} />
             </a>
           </div>
         </div>
