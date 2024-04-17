@@ -43,9 +43,6 @@ class Sponsor extends Component {
             <a href="/" target="_blank">
               <img src={images["sponsor11.png"]} style={{ width: "175px" }} />
             </a>
-            <a href="" target="_blank">
-              <img src={images["sponsor12.png"]} style={{ width: "175px" }} />
-            </a>
           </div>
         </div>
       </div>
